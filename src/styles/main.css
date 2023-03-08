@@ -377,11 +377,16 @@ form {
 
 .input__field {
   width: 100%;
+  min-height: 44px;
   display: flex;
   flex-direction: column;
   margin: 0 200px;
   font-size: large;
   margin-bottom: 10px;
+}
+
+input {
+  min-height: 44px;
 }
 
 #buttonSubmit {
